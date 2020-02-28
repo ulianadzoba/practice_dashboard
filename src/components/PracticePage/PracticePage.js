@@ -28,18 +28,15 @@ class PracticePage extends Component {
                         </div>
                     </div>
                 </div>
-                <Switch>
-                    <Route path='practice/' exact component={All}/>
-                    <Route path='practice/expert' exact component={Expert}/>
-                    {/* <Router path='' component={All}/>
-                    <Router path='' component={All}/> */}
-                </Switch>
+                {/* <Switch> */}
+                    {/* <Route path='practice/' exact component={All}/> */}
+                    {/* <Route path='practice/expert' exact component={Expert}/> */}
+                {/* </Switch> */}
                 <div className='main-bar'>
                     <div className='container-fluid'>
                         <StachedChartBar/>
                     </div>
-                </div>
-                
+                </div>    
                 <EmployeesTable/>
             </React.Fragment>
 
