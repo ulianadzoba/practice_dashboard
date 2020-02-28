@@ -5,6 +5,8 @@ import PageNavbar from './PageNavbar/PageNavbar';
 import All from './All';
 import Expert from './Expert';
 import EmployeesTable from './EmployeesTable/EmployeesTable';
+import StachedChartBar from '../../components/PracticePage/StackedChartBar/StackedChartBar';
+
 
 class PracticePage extends Component {
     render() {
@@ -34,9 +36,10 @@ class PracticePage extends Component {
                 </Switch>
                 <div className='main-bar'>
                     <div className='container-fluid'>
-
+                        <StachedChartBar/>
                     </div>
                 </div>
+                
                 <EmployeesTable/>
             </React.Fragment>
 

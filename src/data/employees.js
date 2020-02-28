@@ -46,10 +46,10 @@ export const categories = [
 ];
 
 export const markOptions = [
-    { id: 1, value: "none", label: <FontAwesomeIcon icon={faCircle} style={{color:"grey"}}/> },
-    { id: 2, value: "expert", label: <FontAwesomeIcon icon={faCircle} style={{color:"red"}}/> },
-    { id: 3, value: "beginner", label: <FontAwesomeIcon icon={faCircle} style={{color:"yellow"}}/> },
-    { id: 4, value: "qualified", label: <FontAwesomeIcon icon={faCircle} style={{color:"green"}}/> }
+    { id: 1, value: "none", label: <FontAwesomeIcon icon={faCircle} style={{color: "silver"}}/> },
+    { id: 2, value: "beginner", label: <FontAwesomeIcon icon={faCircle} style={{color:"rgb(253, 227, 42)"}}/> },
+    { id: 3, value: "qualified", label: <FontAwesomeIcon icon={faCircle} style={{color:"rgb(169, 227, 129)"}}/> },
+    { id: 4, value: "expert", label: <FontAwesomeIcon icon={faCircle} style={{color:"rgb(225, 106, 129)"}}/> }
 ];
 
 export const employeesData = [
