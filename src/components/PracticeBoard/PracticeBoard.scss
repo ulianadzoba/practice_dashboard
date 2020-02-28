@@ -1,0 +1,43 @@
+.practice-board-title {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family:  'Lucida Sans', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.practice-search {
+    display: flex;
+    box-sizing: border-box;
+    cursor: pointer;
+    justify-content: space-between;
+    border: 1px solid silver;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    padding: 5px;
+    input {
+        border: none;
+        outline: none;
+    }
+    input:first-of-type {
+        width: 100%;
+    }
+    input:last-of-type:hover {
+        transform: scale(1.1);
+        color: grey;
+
+    }
+    &:hover {
+        // border: 1px solid green;
+        box-shadow: 0 0 5px rgba(0,0,0,.35);
+    }
+}
+
+.error {
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(197, 125, 125);
+    font-weight: 600;
+}

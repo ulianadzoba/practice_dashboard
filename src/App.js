@@ -1,25 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Layout from './hoc/Layout/Layout'; 
+import PracticeBoard from './components/PracticeBoard/PracticeBoard';
+import Navigation from './components/Navigation/Navigation';
+import {Route, Switch} from 'react-router-dom';
+// import { PracticesData } from './data/data';
+import PracticePage from './components/PracticePage/PracticePage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Layout>   
+        <Navigation/>
+        <Switch>
+          <Route path='/' exact component={PracticeBoard}/>
+          <Route path='/practice' exact component={PracticePage}/>
+        </Switch>
+      </Layout>
+      
   );
 }
 

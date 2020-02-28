@@ -1,0 +1,36 @@
+.employee-row {
+    border-bottom: 1px solid silver;
+    .employee-info {
+        display: flex;
+        align-items: center;
+        .employee-photo {
+            font-size: 28px;
+            padding-right: 10px;
+        }
+        .employee-name {
+            text-transform: capitalize;
+            font-size: 16px;
+            font-family: 'Lucida Sans', sans-serif;
+            font-weight: 500;
+        }
+    }
+    .gate-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-left: 1px solid silver;
+    }
+}
+
+.css-2b097c-container {
+    width: 40px;
+}
+.css-tlfecz-indicatorContainer {
+    display: none !important;
+}
+.css-1hb7zxy-IndicatorsContainer {
+    display: none !important;
+}
+.css-yk16xz-control {
+    border: none !important;
+}

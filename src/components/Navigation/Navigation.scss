@@ -1,0 +1,24 @@
+.navbar {
+    color: black !important;
+    border-bottom: 1px solid silver;
+    a {
+        color: black !important;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .dropdown-toggle::after {
+        border: none!important;
+        font-family: "Font Awesome 5 Free";
+        font-size: 14px;
+        content: "\f078"!important;
+        vertical-align: 0; 
+    }
+    .dropdown-item:hover {
+        opacity: 0.6;
+        background: none;
+        
+    }
+    .dropdown-item:active {
+        background-color: silver;
+    }
+}
