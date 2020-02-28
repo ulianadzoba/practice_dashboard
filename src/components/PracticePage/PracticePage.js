@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import './PracticePage.scss';
-import {Route, Switch} from 'react-router-dom';
+// import {Route, Switch} from 'react-router-dom';
 import PageNavbar from './PageNavbar/PageNavbar';
-import All from './All';
-import Expert from './Expert';
+// import All from './All';
+// import Expert from './Expert';
 import EmployeesTable from './EmployeesTable/EmployeesTable';
 import StachedChartBar from '../../components/PracticePage/StackedChartBar/StackedChartBar';
 
