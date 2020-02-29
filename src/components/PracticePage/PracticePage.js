@@ -5,7 +5,7 @@ import PageNavbar from './PageNavbar/PageNavbar';
 // import All from './All';
 // import Expert from './Expert';
 import EmployeesTable from './EmployeesTable/EmployeesTable';
-import StachedChartBar from '../../components/PracticePage/StackedChartBar/StackedChartBar';
+// import StachedChartBar from '../../components/PracticePage/StackedChartBar/StackedChartBar';
 
 
 class PracticePage extends Component {
@@ -32,11 +32,11 @@ class PracticePage extends Component {
                     {/* <Route path='practice/' exact component={All}/> */}
                     {/* <Route path='practice/expert' exact component={Expert}/> */}
                 {/* </Switch> */}
-                <div className='main-bar'>
+                {/* <div className='main-bar'>
                     <div className='container-fluid'>
                         <StachedChartBar/>
                     </div>
-                </div>    
+                </div>     */}
                 <EmployeesTable/>
             </React.Fragment>
 

@@ -5,10 +5,11 @@ import './StackedChartBar.scss';
 let CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 class StackedChartBar extends Component {
-	constructor() {
-		super();
+	constructor(props) {
+		super(props);
 		this.toggleDataSeries = this.toggleDataSeries.bind(this);
 	}
+	
 	toggleDataSeries(e){
 		if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
 			e.dataSeries.visible = false;
@@ -19,6 +20,11 @@ class StackedChartBar extends Component {
 		this.chart.render();
 	}
 	render() {
+		console.log(this.props.categories);
+		
+		this.props.categories.map((category) => {
+			
+		})
 		const options = {
             animationEnabled: true,
             height: 360,

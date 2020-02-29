@@ -5,43 +5,103 @@ import { faCircle } from '@fortawesome/free-solid-svg-icons';
 export const categories = [
     {
         title: "SQL",
-        id: 1
+        id: 1,
+        totalValue: [
+            {title: "none", number: 0},
+            {title: "beginner", number: 0},
+            {title: "qualified", number: 0},
+            {title: "expert", number: 0}
+        ]
     },
     {
         title: "s3",
-        id: 2
+        id: 2,
+        totalValue: [
+            {title: "none", number: 0},
+            {title: "beginner", number: 0},
+            {title: "qualified", number: 0},
+            {title: "expert", number: 0}
+        ]
     },
     {
         title: "Python",
-        id: 3
+        id: 3,
+        totalValue: [
+            {title: "none", number: 0},
+            {title: "beginner", number: 0},
+            {title: "qualified", number: 0},
+            {title: "expert", number: 0}
+        ]
     },
     {
         title: "PostgreSQL",
-        id: 4
+        id: 4,
+        totalValue: [
+            {title: "none", number: 0},
+            {title: "beginner", number: 0},
+            {title: "qualified", number: 0},
+            {title: "expert", number: 0}
+        ]
     },
     {
         title: "Oracle",
-        id: 5
+        id: 5,
+        totalValue: [
+            {title: "none", number: 0},
+            {title: "beginner", number: 0},
+            {title: "qualified", number: 0},
+            {title: "expert", number: 0}
+        ]
     },
     {
         title: "MySQL",
-        id: 6
+        id: 6,
+        totalValue: [
+            {title: "none", number: 0},
+            {title: "beginner", number: 0},
+            {title: "qualified", number: 0},
+            {title: "expert", number: 0}
+        ]
     },
     {
         title: "Python",
-        id: 7
+        id: 7,
+        totalValue: [
+            {title: "none", number: 0},
+            {title: "beginner", number: 0},
+            {title: "qualified", number: 0},
+            {title: "expert", number: 0}
+        ]
     }, 
     {
         title: "EC2",
-        id: 8
+        id: 8,
+        totalValue: [
+            {title: "none", number: 0},
+            {title: "beginner", number: 0},
+            {title: "qualified", number: 0},
+            {title: "expert", number: 0}
+        ]
     },
     {
         title: "CloudWatch",
-        id: 9
+        id: 9,
+        totalValue: [
+            {title: "none", number: 0},
+            {title: "beginner", number: 0},
+            {title: "qualified", number: 0},
+            {title: "expert", number: 0}
+        ]
     },
     {
         title: "AW2",
-        id: 10
+        id: 10,
+        totalValue: [
+            {title: "none", number: 0},
+            {title: "beginner", number: 0},
+            {title: "qualified", number: 0},
+            {title: "expert", number: 0}
+        ]
     }
 ];
 

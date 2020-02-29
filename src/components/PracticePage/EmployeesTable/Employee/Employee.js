@@ -10,7 +10,7 @@ export default function Employee (props) {
                 <div className='row justify-content-between'>
                     <div className='col-xl-2 col-lg-2 col-md-4 employee-info'>
                         <div className='employee-photo'>
-                            <i class="fas fa-user-circle"></i>
+                            <i className="fas fa-user-circle"></i>
                         </div>
                         <div className='employee-name'>
                             {props.employee.name}
@@ -19,7 +19,7 @@ export default function Employee (props) {
                     
                     {props.employee.skills.map((skill, skillId) => {
                         return(
-                            <div className='col-xl-1 col-lg-1 col-md-2 gate-info'>
+                            <div className='col-xl-1 col-lg-1 col-md-2 gate-info' key={skillId}>
                                 <Select
                                     key={skill.id} 
                                     value={props.markOptions.find(option => option.value === skill.mark)}

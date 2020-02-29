@@ -20,7 +20,7 @@ function PracticeItem (props) {
                 <div className='practice-item-body'>
                     <div className='item-field employees'>
                         <div className='item-icon'>
-                            <i class="fas fa-user-circle"></i>
+                            <i className="fas fa-user-circle"></i>
                         </div>
                         <div className='item-info'>
                             <div className='field-title'>
@@ -33,7 +33,7 @@ function PracticeItem (props) {
                     </div>
                     <div className='item-field knowledge'>
                         <div className='item-icon'>
-                            <i class="fas fa-graduation-cap"></i>
+                            <i className="fas fa-graduation-cap"></i>
                         </div>
                         <div className='item-info'>
                             <div className='field-title'>
