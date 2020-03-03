@@ -2,7 +2,6 @@
     font-size: 28px;
     font-weight: 700;
     text-transform: capitalize;
-    font-family:  'Lucida Sans', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px; 
 }
@@ -19,6 +18,7 @@
     input {
         border: none;
         outline: none;
+        background: none;
     }
     input:first-of-type {
         width: 100%;

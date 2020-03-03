@@ -7,7 +7,7 @@ function PracticeItem (props) {
         <div className='col-xl-2 col-lg-3 col-md-4 col-sm-6 col-8'>
             <div className='practice-item'>
                 <div className='practice-item-header'>
-                    <Link style={{ textDecoration: 'none', color: 'black' }} to='/practice'>
+                    <Link style={{ textDecoration: 'none', color: 'black' }} to='/practice_dashboard/practice'>
                         <div className='item-title header-title'>    
                             <span>{props.item.title}</span>
                         </div>

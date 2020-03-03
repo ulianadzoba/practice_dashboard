@@ -107,16 +107,16 @@ export const categories = [
 
 export const markOptions = [
     { id: 1, value: "none", label: <FontAwesomeIcon icon={faCircle} style={{color: "silver"}}/> },
-    { id: 2, value: "beginner", label: <FontAwesomeIcon icon={faCircle} style={{color:"rgb(253, 227, 42)"}}/> },
-    { id: 3, value: "qualified", label: <FontAwesomeIcon icon={faCircle} style={{color:"rgb(169, 227, 129)"}}/> },
-    { id: 4, value: "expert", label: <FontAwesomeIcon icon={faCircle} style={{color:"rgb(225, 106, 129)"}}/> }
+    { id: 2, value: "beginner", label: <FontAwesomeIcon icon={faCircle} style={{color:"rgb(225, 106, 129)"}}/> },
+    { id: 3, value: "qualified", label: <FontAwesomeIcon icon={faCircle} style={{color:"rgb(253, 227, 42)"}}/> },
+    { id: 4, value: "expert", label: <FontAwesomeIcon icon={faCircle} style={{color:"rgb(169, 227, 129)"}}/> }
 ];
 
 export const employeesData = [
     {
         id: 1,
         name: "Phet Putrie",
-        photo: "photo1.jpg",
+        // photo: "photo1.jpg",
         skills: [
             {id: 1, category: 'sql', mark: 'none', category_id: 1},
             {id: 2, category: 's3', mark: 'expert', category_id: 2},
@@ -133,7 +133,7 @@ export const employeesData = [
     {
         id: 2,
         name: "Gunther Ackner",
-        photo: "photo1.jpg",
+        // photo: "photo1.jpg",
         skills: [
             {id: 1, category: 'sql', mark: 'qualified', category_id: 1},
             {id: 2, category: 's3', mark: 'none', category_id: 2},
@@ -149,7 +149,7 @@ export const employeesData = [
     {
         id: 3,
         name: "Jon Siverton",
-        photo: "photo3.jpg",
+        // photo: "photo3.jpg",
         skills: [
             {id: 1, category: 'sql', mark: 'beginner', category_id: 1},
             {id: 2, category: 's3', mark: 'expert', category_id: 2},
@@ -166,7 +166,7 @@ export const employeesData = [
     {
         id: 4,
         name: "Kamil Chirai",
-        photo: "photo1.jpg",
+        // photo: "photo4.jpg",
         skills: [
             {id: 1, category: 'sql', mark: 'none', category_id: 1},
             {id: 2, category: 's3', mark: 'expert', category_id: 2},
@@ -183,7 +183,7 @@ export const employeesData = [
     {
         id: 5,
         name: "Fele Putrie",
-        photo: "photo1.jpg",
+        // photo: "photo5.jpg",
         skills: [
             {id: 1, category: 'sql', mark: 'qualified', category_id: 1},
             {id: 2, category: 's3', mark: 'none', category_id: 2},
@@ -199,7 +199,7 @@ export const employeesData = [
     {
         id: 6,
         name: "Jon Jon",
-        photo: "photo3.jpg",
+        // photo: "photo6.jpg",
         skills: [
             {id: 1, category: 'sql', mark: 'none', category_id: 1},
             {id: 2, category: 's3', mark: 'expert', category_id: 2},
@@ -216,7 +216,7 @@ export const employeesData = [
     {
         id: 7,
         name: "Phet Jon",
-        photo: "photo3.jpg",
+        // photo: "photo7.jpg",
         skills: [
             {id: 1, category: 'sql', mark: 'expert', category_id: 1},
             {id: 2, category: 's3', mark: 'qualified', category_id: 2},

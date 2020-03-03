@@ -16,7 +16,7 @@ export const PracticesData = [
 {
     id: 3,
     title: "SalesForce SalesForce Sales",
-    date: 'Feb 14, 2020',
+    date: 'Feb 10, 2020',
     employees: 343,
     knowledgeItems: 2
 },

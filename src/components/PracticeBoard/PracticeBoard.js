@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import './PracticeBoard.scss';
 import PracticeList from './PracticeList/PracticeList';
-// import PracticeItem from './PracticeItem/PracticeItem';
 import {PracticesData} from '../../data/data';
-// import {Link} from 'react-router-dom';
 
 
 class PracticeBoard extends Component {
